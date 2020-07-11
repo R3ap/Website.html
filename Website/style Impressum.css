@@ -1,0 +1,64 @@
+/* ALLGEMEIN*/
+
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+
+
+}
+.wrapper {
+  width: 1960px;
+  max-width:90%;
+
+  margin: 0 auto;
+}
+/* NAVIGATION*/
+
+#nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* LOGO */
+
+#logo {
+  width: 60px;
+  height: 60px;
+
+  float: left;
+
+  margin: 20px;
+}
+#logo p {
+    font-family: Streetwear;
+    font-size: 3em;
+    line-height: 1.5;
+
+
+
+    color: white;
+}
+#menu {
+  float: right;
+  margin-top: 44px;
+  margin-right: 30px;
+}
+#menu a {
+  padding-right: 30px;
+  pading-top: 35px;
+
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+#menu a:hover {
+  color: orangered;
+}
